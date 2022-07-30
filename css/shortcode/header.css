@@ -415,7 +415,7 @@
 .header--3 .logo {
   align-items: center;
   display: flex;
-  height: 234px;
+  /* height: px; */
 }
 .header--3 .main__menu > li > a {
   font-size: 20px;
@@ -436,11 +436,19 @@
   position: fixed;
   right: 0;
   top: 0;
+  height: fit-content;
   width: 100%;
   z-index: 99;
 }
+.header--3 .sticky__header.scroll-header .topdiv_head{
+  padding-left: 40px;
+  padding-bottom: 20px;
+  height: 80px;
+  width: 170px;
+}
 .header--3 .sticky__header.scroll-header .logo {
   height: 70px;
+
 }
 .header--3 .sticky__header.scroll-header .menu-extra {
   height: 70px;

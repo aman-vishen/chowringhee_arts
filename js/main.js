@@ -463,18 +463,51 @@ $('.image-popup').magnificPopup({
 /*--------------------------
   21. jQuery scroll Nav
 ---------------------------- */
-    $('.onepage--menu').onePageNav({
-        scrollOffset: 0
-    }); 
+    // $('.onepage--menu').onePageNav({
+    //     scrollOffset: 0
+    // }); 
+    // function updateQuickView(url) {
+    //   $('.product-images .images img').removeClass('selected').find('img[src="'+ url +'"]').parent('li').addClass('selected');
+    // }
 
-
-
-
-
-
+    // $('#this_img').on('click', function(event){
+    //   var selectedImage = $(this).parent('.product__hover__info').children('.this_img'),
+    //     slectedImageUrl = selectedImage.attr('src');
+  
+    //   // $('body').addClass('overlay-layer');
+    //   // animateQuickView(selectedImage, sliderFinalWidth, maxQuickWidth, 'open');
+  
+    //   //update the visible slider image in the quick view panel
+    //   //you don't need to implement/use the updateQuickView if retrieving the quick view data with ajax
+    //   updateQuickView(slectedImageUrl);
+    // });
 
 
 })(jQuery);
+
+var modal = document.getElementById("myModal");
+var head = document.getElementById("sticky-header-with-topbar");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  head.style.display = "none";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+  head.style.display = "block";
+}
+
 
 
 
