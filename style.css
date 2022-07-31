@@ -1002,13 +1002,31 @@ h3.widget-title-modal {
 }
 .feature__details {
     bottom: 40px;
-    left: 40px;
+    left: 80px;
     position: absolute;
+    /* opacity: 0.5; */
 }
-.feature__details h4 {
-    color: #000;
+
+.feature__details1 {
+    bottom: 40px;
+    left: 55px;
+    position: absolute;
+    /* opacity: 0.5; */
+}
+
+.feature__details1 h4 {
+    color: rgb(255, 255, 255);
     font-size: 22px;
     text-transform: capitalize;
+    font-weight: bold;
+    /* border: #000 1px solid; */
+}
+.feature__details h4 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+    /* border: #000 1px solid; */
 }
 .feature__btn {
     margin-top: 7px;
