@@ -594,6 +594,20 @@
   
 .container {width:300px}
 
+.topdiv_head {
+  width: 140px;
+  height: 80px;
+}
+
+.slider__fixed--height {
+  /* background: rgba(0, 0, 0, 0) url(images/new_div_res.png) no-repeat scroll center center / cover ; */
+  background: url(images/new_div_res.png) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 /*------------------
  Padding Top
 -----------------*/
@@ -1362,14 +1376,5 @@ blockquote::before {
     line-height: 44px;
 } 
     
-    
-    
-    
-    
-    
-    
-    
-    
-
 }
  

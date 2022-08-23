@@ -29,6 +29,7 @@
     height: 60px;
     font-weight: 200;
     width: 200px;
+  
   }
   .btn-4:hover{
     border: none;
@@ -798,14 +799,14 @@ text-align: center;
 
 /* line 98, resources/assets/styles/components/_cards.scss */
 
-.card-body span {
+/* .card-body span {
 display: inline-block;
 font-weight: 500;
 margin-bottom: 1.5rem;
 font-size: 20px;
 font-size: 1.25rem;
 line-height: 1;
-}
+} */
 
 /* line 106, resources/assets/styles/components/_cards.scss */
 
@@ -868,3 +869,86 @@ margin-bottom: 2rem;
 #more {display: none;}
 #more1 {display: none;}
 #more2 {display: none;}
+
+/* 
+.full {
+  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+} */
+
+
+.full {
+  /* Location of the image */
+  background-image: url(images/Final-div.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  /* background-color:#464646; */
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .full {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/new_div_res.png);
+  }
+	}
+
+
+.cardspam{
+  
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  
+}
+
+
+#section1{
+background-image:url('../images/bag_div3.jpg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+#section0{
+  background-image:url('../images/div3.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+#section2{
+  background-image:url('../images/new_div.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  }
+
+
+  @media (max-width: 767px) {
+    .custom-btn {
+        display:none;
+    }
+}
