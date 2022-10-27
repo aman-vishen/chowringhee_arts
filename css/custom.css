@@ -951,4 +951,12 @@ background-position:center;
     .custom-btn {
         display:none;
     }
+  
+      .bg__white { 
+        background-image: none !important;
+      }
+    
 }
+
+
+#Glasses {display: none;}

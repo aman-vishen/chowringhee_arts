@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
 *{
-   font-family: 'Nunito', sans-serif;
+   /* font-family: 'Nunito', sans-serif; */
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -10,7 +10,38 @@
    text-transform: capitalize;
 }
 
+.wrap__box__style--1 {
+   padding-right: 60px;
+   padding-bottom: 60px;
+   padding-left: 60px;
+   /* background: #fff; */
+}
+
+.header{
+   z-index: 10;
+   position: relative;
+ }
+ .main__menu {
+   display: flex;
+   justify-content: center;
+  
+ }
+ .main__menu > li > a {
+   color: #000000;
+   display: block;
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 70px;
+   position: relative;
+   text-transform: capitalize;
+ }
+ .main__menu > li {
+   padding: 0 20px;
+   position: relative;
+ }
+
 html{
+   /* font-family: 'Poppins', sans-serif; */
    font-size: 62.5%;
    overflow-x: hidden;
 }
@@ -82,6 +113,7 @@ body{
    top:0; left:0;
    min-height: 100vh;
    width: 100%;
+   height: 500px;
    background: rgba(0,0,0,.8);
    display: none;
    align-items: center;
@@ -95,7 +127,8 @@ body{
    background: #fff;
    position: relative;
    margin:2rem;
-   width: 40rem;
+   width: 70rem;
+   height: 50rem;
 }
 
 .products-preview .preview.active{
@@ -214,13 +247,17 @@ body{
   padding: 25px;
 }
 .mytabs input[type="radio"] {
+  
   display: none;
 }
 .mytabs label {
-  font-size: 3.78em;
+  font-size: 3.5em;
   padding: 25px;
   background: #e2e2e2;
-  font-weight: bold;
+  padding: 45px;
+  border: #222;
+  /* font-weight: bold; */
+  
 }
 
 .mytabs .tab {
@@ -240,4 +277,168 @@ body{
 
 .mytabs input[type="radio"]:checked + label {
   background: #fff;
+}
+
+
+.ht__bradcaump__area{
+    
+    
+   height: 700px;
+
+ }
+ .panel {
+   border: none;
+   box-shadow: none;
+}
+
+.panel-heading {
+   border-color:#eff2f7 ;
+   font-size: 16px;
+   font-weight: 300;
+}
+
+.panel-title {
+   color: #2A3542;
+   font-size: 14px;
+   font-weight: 400;
+   margin-bottom: 0;
+   margin-top: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+/*product list*/
+
+.prod-cat li a{
+   border-bottom: 1px dashed #d9d9d9;
+}
+
+.prod-cat li a {
+   color: #3b3b3b;
+}
+
+.prod-cat li ul {
+   margin-left: 30px;
+}
+
+.prod-cat li ul li a{
+   border-bottom:none;
+}
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+   background: none;
+   color: #ff7261;
+}
+
+.pro-lab{
+   margin-right: 20px;
+   font-weight: normal;
+}
+
+.pro-sort {
+   padding-right: 20px;
+   float: left;
+}
+
+.pro-page-list {
+   margin: 5px 0 0 0;
+}
+
+.product-list img{
+   width: 100%;
+   border-radius: 4px 4px 0 0;
+   -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+   position: relative;
+}
+.adtocart {
+   background: #fc5959;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   color: #fff;
+   display: inline-block;
+   text-align: center;
+   border: 3px solid #fff;
+   left: 45%;
+   bottom: -25px;
+   position: absolute;
+}
+
+.adtocart i{
+   color: #fff;
+   font-size: 25px;
+   line-height: 42px;
+}
+
+.pro-title {
+   color: #5A5A5A;
+   display: inline-block;
+   margin-top: 20px;
+   font-size: 16px;
+}
+
+.product-list .price {
+   color:#fc5959 ;
+   font-size: 15px;
+}
+
+.pro-img-details {
+   margin-left: -15px;
+}
+
+.pro-img-details img {
+   width: 100%;
+}
+
+.pro-d-title {
+   font-size: 16px;
+   margin-top: 0;
+}
+
+.product_meta {
+   border-top: 1px solid #eee;
+   border-bottom: 1px solid #eee;
+   padding: 10px 0;
+   margin: 15px 0;
+}
+
+.product_meta span {
+   display: block;
+   margin-bottom: 10px;
+}
+.product_meta a, .pro-price{
+   color:#fc5959 ;
+}
+
+.pro-price, .amount-old {
+   font-size: 18px;
+   padding: 0 10px;
+}
+
+.amount-old {
+   text-decoration: line-through;
+}
+
+.quantity {
+   width: 120px;
+}
+
+.pro-img-list {
+   margin: 10px 0 0 -15px;
+   width: 100%;
+   display: inline-block;
+}
+
+.pro-img-list a {
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.pro-d-head {
+   font-size: 18px;
+   font-weight: 300;
 }

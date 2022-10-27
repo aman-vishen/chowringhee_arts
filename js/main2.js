@@ -159,3 +159,103 @@ function myFunction1() {
 	  moreText2.style.display = "inline";
 	}
   }
+
+
+function glasses() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	// var btnText = document.getElementById("myBtn");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var Tray = document.getElementById("Tray");
+	var furn = document.getElementById("furn");
+	dots.style.display = "inline";
+	moreText.style.display = "none";
+	horn.style.display = "none";
+	salad.style.display="none";
+	Tray.style.display="none";
+
+  }
+
+
+function bowls() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	// var btnText = document.getElementById("myBtn");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var Tray = document.getElementById("Tray");
+	var furn = document.getElementById("furn");
+	dots.style.display = "none";
+	moreText.style.display = "inline";
+	horn.style.display = "none";
+	salad.style.display="none";
+	Tray.style.display="none";
+}
+
+function Horn_plates() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var Tray = document.getElementById("Tray");
+	var furn = document.getElementById("furn");
+	// var btnText = document.getElementById("myBtn");
+	dots.style.display = "none";
+	moreText.style.display = "none";
+	horn.style.display = "inline";
+	salad.style.display="none";
+	Tray.style.display="none";
+}
+
+function Salad() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var Tray = document.getElementById("Tray");
+	var furn = document.getElementById("furn");
+
+	// var btnText = document.getElementById("myBtn");
+	dots.style.display = "none";
+	moreText.style.display = "none";
+	horn.style.display = "none";
+	salad.style.display="inline";
+	Tray.style.display="none";
+}
+
+
+
+function Tray() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var furn = document.getElementById("furn");
+	var Tray = document.getElementById("Tray");
+	// var btnText = document.getElementById("myBtn");
+	dots.style.display = "none";
+	moreText.style.display = "none";
+	horn.style.display = "none";
+	salad.style.display="none";
+	Tray.style.display="inline";
+}
+
+
+
+
+function furniture() {
+	var dots = document.getElementById("Glasses");
+	var moreText = document.getElementById("bowls");
+	var horn = document.getElementById("Horn_plates");
+	var salad = document.getElementById("Salad");
+	var Tray = document.getElementById("Tray");
+	var furn = document.getElementById("furn");
+	// var btnText = document.getElementById("myBtn");
+	dots.style.display = "none";
+	moreText.style.display = "none";
+	horn.style.display = "none";
+	salad.style.display="none";
+	Tray.style.display="none";
+	furn.style.display="inline";
+}
