@@ -24,7 +24,7 @@
 }
 .slider__fixed--height {
   display: flex;
-  height: 680px;
+  height: 580px;
   align-items: center;
 }
 .slider__fixed--height--2 {
