@@ -242,6 +242,7 @@
 
 .feat{
   /* background-color: #000; */
+  font-family: sans-serif;
   color: #ffff;
   opacity: 1;
 
@@ -767,6 +768,7 @@ border-radius: 0;
 
 .card-body {
 padding: 2rem;
+font-family:sans-serif;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -812,9 +814,9 @@ line-height: 1;
 
 .card-body h3 {
 margin-bottom: 0.75rem;
-font-size: 26px;
-font-size: 1.625rem;
-line-height: 2.25rem;
+/* font-size: 26px; */
+font-size: 1.5rem;
+line-height: 2.15rem;
 }
 
 @media (min-width: 768px) {
@@ -822,7 +824,7 @@ line-height: 2.25rem;
 
 .card-body h3 {
   font-size: 32px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2.5rem;
 }
 }
@@ -960,3 +962,5 @@ background-position:center;
 
 
 #Glasses {display: none;}
+
+

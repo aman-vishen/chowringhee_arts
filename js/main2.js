@@ -174,6 +174,7 @@ function glasses() {
 	horn.style.display = "none";
 	salad.style.display="none";
 	Tray.style.display="none";
+	furn.style.display="none";
 
   }
 
@@ -191,6 +192,7 @@ function bowls() {
 	horn.style.display = "none";
 	salad.style.display="none";
 	Tray.style.display="none";
+	furn.style.display="none";
 }
 
 function Horn_plates() {
@@ -206,6 +208,7 @@ function Horn_plates() {
 	horn.style.display = "inline";
 	salad.style.display="none";
 	Tray.style.display="none";
+	furn.style.display="none";
 }
 
 function Salad() {
@@ -222,6 +225,7 @@ function Salad() {
 	horn.style.display = "none";
 	salad.style.display="inline";
 	Tray.style.display="none";
+	furn.style.display="none";
 }
 
 
@@ -239,6 +243,7 @@ function Tray() {
 	horn.style.display = "none";
 	salad.style.display="none";
 	Tray.style.display="inline";
+	furn.style.display="none";
 }
 
 
