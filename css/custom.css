@@ -928,7 +928,7 @@ margin-bottom: 2rem;
 
 
 #section1{
-background-image:url('../images/bag_div3.jpg');
+background-image:url('../images/div3_2.png');
 background-repeat:no-repeat;
 background-size:contain;
 background-position:center;
@@ -964,3 +964,7 @@ background-position:center;
 #Glasses {display: none;}
 
 
+
+.about2{
+ /* gap:10px  */
+}
