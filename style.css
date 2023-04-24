@@ -1546,7 +1546,7 @@ product__style--7
 .video__wrap {
     margin-left: -15px;
     margin-right: -15px;
-    padding: 220px 0;
+    padding: 110px 0;
 }
 .htc__choose__wrap {
     margin-left: -15px;
@@ -4197,7 +4197,7 @@ article {
 
 h1 {
     margin: 10px 0px 30px 0px;
-    font-family: cursive;
+    /* font-family: cursive; */
     color: rgb(0, 6, 90);
     font-size: 50px;
 }
@@ -4282,3 +4282,43 @@ h1 {
 .closeBtn:hover {
     color: rgb(255, 255, 255);
 }
+
+
+
+
+.mycontent {
+    text-align: center;
+    margin-top: 80px;
+    padding:0 4%;
+}
+.mycontent p{
+    line-height: normal;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 22px;} 
+
+  
+  .photo {
+    background: url(images/women_impower.jpeg) no-repeat;
+    background-size:cover;
+    min-height:500px;
+    background-position: 50% 50%;
+  }
+  .photo1 {
+    background: url(images/artisan.jpeg) no-repeat;
+    background-size:cover;
+    min-height:500px;
+    background-position: 50% 50%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .photo {min-height:350px;}
+    .photo1 {min-height:350px;}
+    .mycontent {padding:0 4%;}
+  }
+  
+  @media screen and (max-width: 480px) {
+    .photo {min-height:325px;}
+    .photo1 {min-height:325px;}
+    .mycontent {padding:0;}
+  }
