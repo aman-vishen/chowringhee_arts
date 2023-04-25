@@ -4296,6 +4296,17 @@ h1 {
     text-align: left;
     margin-top: 40px;
     font-size: 22px;} 
+.mycontent1 {
+    text-align: center;
+    margin-top: 80px;
+    padding:0 4%;
+}
+.mycontent1 p{
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;} 
+    
 
   
   .photo {
@@ -4314,11 +4325,53 @@ h1 {
   @media screen and (max-width: 768px) {
     .photo {min-height:350px;}
     .photo1 {min-height:350px;}
-    .mycontent {padding:0 4%;}
+    .mycontent {padding:0 4%;font-size: 16px;padding-bottom: 30px;}
+    .mycontent1{font-size: 12px;padding-bottom: 30px;}
+    h1{font-size: 32px;}
+    .contact_header_div{
+        background: rgba(0, 0, 0, 0) url(images/Contactus_mobile.png) no-repeat scroll center center / cover ;
+    }
+    
   }
   
   @media screen and (max-width: 480px) {
     .photo {min-height:325px;}
     .photo1 {min-height:325px;}
-    .mycontent {padding:0;}
+    .mycontent {padding:0;font-size: 16px; padding-bottom: 30px;}
+    .mycontent1{font-size: 12px;padding-bottom: 30px;}
+    h1{font-size: 32px;}
+    .mycontent1 p{line-height: normal;
+        text-align: left;
+        margin-top: 40px;
+        font-size: 22px;}
+    .contact_header_div{
+        background: rgba(0, 0, 0, 0) url(images/Contactus_mobile.png) no-repeat scroll center center / cover ;
+    }
+    .map-contacts {
+        padding-left: 0px;
+    }
+    .single__contact__address{
+        flex-direction: column;
+        gap: 60px;
+    }
   }
+
+
+  #divabout{
+ 
+    background-image:url('images/overlay.jpg');
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    }
+
+    .contact_header_div{
+        background-image:url('images/Contact\ us.png');
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+}
+
+        /* background: rgba(0, 0, 0, 0) url(images/Contact\ us.png) no-repeat scroll center center / cover ; */
+    /* } */
+    /* style="background: rgba(0, 0, 0, 0) url(images/Contact\ us.png) no-repeat scroll center center / cover ;" */
