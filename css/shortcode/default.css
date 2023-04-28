@@ -404,19 +404,19 @@ body {
 ----------------------------*/
 
  .bg--1 {
-  background: rgba(0, 0, 0, 0) url("../../images/bg/1.jpg") no-repeat fixed 0 0 / cover ;
+  background: rgba(0, 0, 0, 0) url("https://chowringheearts.com/images/bg/1.jpg") no-repeat fixed 0 0 / cover ;
 }
  .bg--2 {
-  background: rgba(0, 0, 0, 0) url("../../images/bg/2.jpg") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("https://chowringheearts.com/images/bg/2.jpg") no-repeat scroll center center / cover ;
 }
  .bg--3 {
-  background: rgba(0, 0, 0, 0) url("../../images/Final\ craftman.png");
+  background: rgba(0, 0, 0, 0) url("https://chowringheearts.com/images/Final\ craftman.png");
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
  .bg--4 {
-  background: rgba(0, 0, 0, 0) url("../../images/bg/6.jpg") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("https://chowringheearts.com/images/bg/6.jpg") no-repeat scroll center center / cover ;
 }
 
 /*----------------------------

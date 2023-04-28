@@ -885,7 +885,7 @@ margin-bottom: 2rem;
 
 .full {
   /* Location of the image */
-  background-image: url(images/Final-div.jpg);
+  background-image: url(https://chowringheearts.com/images/Final-div.jpg);
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -913,7 +913,7 @@ margin-bottom: 2rem;
   .full {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-    background-image: url(images/new_div_res.png);
+    background-image: url(https://chowringheearts.com/images/new_div_res.png);
   }
 	}
 

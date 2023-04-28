@@ -4310,13 +4310,13 @@ h1 {
 
   
   .photo {
-    background: url(images/women_impower.jpg) no-repeat;
+    background: url(https://chowringheearts.com/images/women_impower.jpg) no-repeat;
     background-size:cover;
     min-height:500px;
     background-position: 50% 50%;
   }
   .photo1 {
-    background: url(images/artisan.jpg) no-repeat;
+    background: url(https://chowringheearts.com/images/artisan.jpg) no-repeat;
     background-size:cover;
     min-height:500px;
     background-position: 50% 50%;
@@ -4329,7 +4329,7 @@ h1 {
     .mycontent1{font-size: 12px;padding-bottom: 30px;}
     h1{font-size: 32px;}
     .contact_header_div{
-        background: rgba(0, 0, 0, 0) url(images/Contactus_mobile.png) no-repeat scroll center center / cover ;
+        background: rgba(0, 0, 0, 0) url(https://chowringheearts.com/images/Contactus_mobile.png) no-repeat scroll center center / cover ;
     }
     
   }
@@ -4345,7 +4345,7 @@ h1 {
         margin-top: 40px;
         font-size: 22px;}
     .contact_header_div{
-        background: rgba(0, 0, 0, 0) url(images/Contactus_mobile.png) no-repeat scroll center center / cover ;
+        background: rgba(0, 0, 0, 0) url(https://chowringheearts.com/images/Contactus_mobile.png) no-repeat scroll center center / cover ;
     }
     .map-contacts {
         padding-left: 0px;
@@ -4359,14 +4359,14 @@ h1 {
 
   #divabout{
  
-    background-image:url('images/overlay.jpg');
+    background-image:url('https://chowringheearts.com/images/overlay.jpg');
     background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center;  
     }
 
     .contact_header_div{
-        background-image:url('images/Contact\ us.png');
+        background-image:url('https://chowringheearts.com/images/Contact\ us.png');
         background-repeat:no-repeat;
         background-size:contain;
         background-position:center;
