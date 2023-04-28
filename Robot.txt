@@ -1,0 +1,4 @@
+Sitemap: https://chowringheearts.com/sitemap.xml
+
+User-agent: Googlebot
+User-agent: Bingbot
