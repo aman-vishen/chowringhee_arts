@@ -591,6 +591,14 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+
+#section0{
+  background-image:url('../images/div3_mobile.png');
+  /* background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center; */
+}
   
 .container {width:300px}
 
